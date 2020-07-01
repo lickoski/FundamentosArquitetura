@@ -21,12 +21,12 @@
             // ETC...
         }
 
-        public override void Testar()
+        public override void Testar() //Método virtual na classe base, pode ou não ser sobrescrito(não é obrigatório)
         {
             // teste de cafeteira
         }
 
-        public override void Ligar()
+        public override void Ligar()//Método Abstract na classe base, é obrigatório sua implementação
         {
             // Verificar recipiente de agua
         }
